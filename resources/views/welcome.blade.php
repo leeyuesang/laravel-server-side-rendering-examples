@@ -73,6 +73,7 @@
                 <div class="links">
                     <a href="{{ url('vue') }}">Vue</a>
                     <a href="{{ url('react') }}">React</a>
+                    <a href="{{ url('teachers') }}">React</a>
                 </div>
             </div>
         </div>

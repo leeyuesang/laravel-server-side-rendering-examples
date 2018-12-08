@@ -20,6 +20,9 @@ mix
 
     .react('resources/assets/js/react/entry-client.js', 'public/js/react')
     .react('resources/assets/js/react/entry-server.js', 'public/js/react')
+    .react('resources/assets/js/teachers/entry-client.js', 'public/js/teachers')
+    .react('resources/assets/js/teachers/entry-server.js', 'public/js/teachers')
+
 
     .postCss('resources/assets/css/app.css', 'public/css/app.css', [
         require('tailwindcss')('./tailwind.js'),
